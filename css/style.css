@@ -286,6 +286,36 @@ body {
 }
 
 @media (min-width: 1024px) {
+  .main-header {
+    height: 50px;
+    padding-top: 2em;
+    padding-left: 0.875em;
+    padding-right: 0.875em;
+  }
+
+  .logo {
+    float: left;
+    line-height: 50px;
+    padding: 0;
+  }
+
+  .main-nav {
+    float: right;
+  }
+
+  .main-nav li {
+    margin-bottom: 0;
+  }
+
+  .main-nav a {
+    padding: 0;
+    line-height: 50px;
+  }
+
+  .about-section {
+    clear: both;
+  }
+
   .portfolio-section {
     margin: 0 auto;
     max-width: 95%;
